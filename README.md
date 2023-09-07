@@ -24,7 +24,10 @@
     <li>scikit-learn</li>
 </ul>
     
-<br/>
+<h3>CLIP Features</h3>
+<h4><a href="https://drive.google.com/file/d/1FvU8-qiVwiGF5BXAdM00-YhMZ7xt_vvy/view?usp=sharing">ShanghaiTech Campus Dataset</a></h4>
+<h4><a href="https://drive.google.com/file/d/1bsVTixDxWdycDJhcTwqZV75suFrv76LB/view?usp=sharing">UCF-Crime Dataset</a></h4>
+<h4><a href="https://drive.google.com/file/d/1HdN4_RcxvSp5scJ4k1PDgHHSZpEhGoZp/view?usp=sharing">XD-Violence Dataset</a></h4>
 
 <h3>FAQ</h3>
 
