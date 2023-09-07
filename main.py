@@ -60,7 +60,9 @@ if __name__ == '__main__':
     config = Config(args)
     wandb_config = args.__dict__
 
-    # For manual cuda assignment (e.g., CUDA_VISIBLE_DEVICES=1 python main.py ...)
+    """
+    For manual cuda assignment (e.g., CUDA_VISIBLE_DEVICES=1 python main.py ...)
+    """
     if "CUDA_VISIBLE_DEVICES" not in os.environ:
         os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     elif os.environ["CUDA_VISIBLE_DEVICES"] in ["1", 1]:
@@ -107,7 +109,7 @@ if __name__ == '__main__':
         model = Model(feature_size, args.batch_size, args.k, args.num_samples, args.enable_HA, args)
 
         if "," in args.gpu:
-            model = torch.nn.DataParallel(model, device_ids=[0,1])
+            model = torch.nn.DataParallel(model, device_ids=[int(f) for f in args.gpu.split(",")])
 
         model = model.to(device)
 
