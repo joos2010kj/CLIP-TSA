@@ -1,0 +1,13 @@
+__pycache__/*
+venv/*
+auc_record/*
+ckpt/*
+wandb/*
+utils/__pycache__/*.pyc
+xd_features
+tpr.npy
+fpr.npy
+precision.npy
+recall.npy
+pr_auc.npy
+
