@@ -196,8 +196,8 @@ class Model(nn.Module):
     def __init__(self, n_features, batch_size, k=0.0, num_samples=100, apply_HA=True, args=None):
         super(Model, self).__init__()
 
-        if args.visual.upper() in ["I3D", "C3D"]: # and args.enable_HA:
-            OG_feat = n_features
+        OG_feat = n_features
+        if args.visual.upper() in ["I3D", "C3D"]: # and args.enable_HA:            
             n_features = 512
 
         self.hard_attention = HardAttention(k=k, num_samples=num_samples, input_dim=n_features)

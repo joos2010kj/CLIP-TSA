@@ -20,6 +20,8 @@ UNIQ_ID = strftime("%Y%m%d_%H%M%S", gmtime())
 
 arg_parser = argparse.ArgumentParser()
 
+np.int = int
+
 # hyperparam
 arg_parser.add_argument('--lr', type=str, default='[0.001]*4000', help='learning rates for steps(list form)')
 arg_parser.add_argument('--batch_size', type=int, default=16, help='number of instances in a batch of data (default: 32)')
