@@ -4,7 +4,7 @@
     <a href="https://arxiv.org/abs/2212.05136" alt="ArXiv">
         <img src="https://img.shields.io/badge/paper-arxiv-orange.svg" />
     </a>
-    <a href="https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings" alt="Proceedings">
+    <a href="https://ieeexplore.ieee.org/document/10222289" alt="Proceedings">
         <img src="https://img.shields.io/badge/paper-proceedings-orange.svg" />
     </a>
     <a href="https://hyekang.info/bibtex/clip-tsa.txt" alt="Cite">
