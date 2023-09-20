@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://ieeexplore.ieee.org/document/10222289">CLIP-TSA: <br> CLIP-Assisted Temporal Self-Attention for <br> Weakly-Supervised Video Anomaly Detection</a></h1>
 <h3 align="center"><a href="https://2023.ieeeicip.org/">IEEE International Conference on Image Processing (ICIP), 2023</a></h3>
-<h3 align="center"><em>Oral Presentation</em></h3>
+<div align="center" class="font-size: 40px;"><strong><em>Oral Presentation</em></strong></div><br />
 
 <p align="center">
     <a href="https://arxiv.org/abs/2212.05136" alt="ArXiv">
@@ -15,13 +15,13 @@
      <a href="https://twitter.com/cokecoda" alt="Twitter">
         <img src="https://img.shields.io/twitter/url/https/twitter.com/cokecoda.svg?style=social&label=Follow%20%40cokecoda" />
      </a>
-<h5 align="center">The repository discusses the implementation of the paper <br> "CLIP-TSA: CLIP-Assisted Temporal Self-Attention for Weakly-Supervised Video Anomaly Detection" <br> using the PyTorch framework.</h5>
+<div align="center">The repository discusses the implementation of the paper <br> "CLIP-TSA: CLIP-Assisted Temporal Self-Attention for Weakly-Supervised Video Anomaly Detection" <br> using the PyTorch framework.</div>
 <hr>
 <h3>Paper</h3>
     
 > [**CLIP-TSA: CLIP-Assisted Temporal Self-Attention for Weakly-Supervised Video Anomaly Detection**](https://arxiv.org/pdf/2212.05136.pdf) (Oral, ICIP 2023)
 >
-> *[Kevin Hyekang Joo](https://hyekang.info/), Khoa Vo, Kashu Yamazaki, Ngan Le*
+> *[**Kevin Hyekang Joo**](https://hyekang.info/), Khoa Vo, Kashu Yamazaki, Ngan Le*
 
 <h3>Requirements</h3>
 <ul>
@@ -48,7 +48,15 @@
 
 - A2) Each dataset requires varying amounts of VRAM, and a significant amount of VRAM is expected to be used with the TSA feature enabled. Thus, please be advised if you want to run tests on big public datasets such as ShanghaiTech Campus, XD-Violence, and UCF-Crime Datasets. If you would like to test out only the power of CLIP within the model, please disable the TSA by adding `--disable_HA` to the command, which requires less amount of VRAM and should be operable on most GPUs. 
 
-## Citations:
+<h3>How to Run</h3>
+
+> python main.py
+
+Please change the hyperparameters & parameters accordingly by first looking at the main.py file. Otherwise, it will be run under default settings.
+
+<hr>
+
+<h3>Citations</h3>
 
 ```
 @inproceedings{joo2023cliptsa,
@@ -62,5 +70,11 @@
   organization={IEEE}
 }
 ```
+
+<h3>Contacts</h3>
+
+*Kevin Hyekang Joo - hkjoo@cs.umd.edu*
+
+<hr>
 
 <h4>The codes have been adapted in part from Yu Tian's <a href="https://github.com/tianyu0207/RTFM">RTFM</a>.</h4>
