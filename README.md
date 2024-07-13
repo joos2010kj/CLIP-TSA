@@ -12,8 +12,8 @@
 <!--     <a href="https://hyekang.info/bibtex/clip-tsa.txt" alt="Cite">
         <img src="https://img.shields.io/badge/cite-bibtex-orange.svg" />
     </a> -->
-     <a href="https://twitter.com/cokecoda" alt="Twitter">
-        <img src="https://img.shields.io/twitter/url/https/twitter.com/cokecoda.svg?style=social&label=Follow%20%40cokecoda" />
+     <a href="https://twitter.com/kevinhjoo" alt="Twitter">
+        <img src="https://img.shields.io/twitter/follow/KevinHJoo" />
      </a>
 <div align="center">The repository discusses the implementation of the paper <br> "CLIP-TSA: CLIP-Assisted Temporal Self-Attention for Weakly-Supervised Video Anomaly Detection" <br> using the PyTorch framework.</div>
 <hr>
@@ -73,7 +73,7 @@ Please change the hyperparameters & parameters accordingly by first looking at t
 
 <h3>Contacts</h3>
 
-*Kevin Hyekang Joo - hkjoo@cs.umd.edu*
+*Kevin Hyekang Joo - khjoo@usc.edu or hkjoo@umd.edu*
 
 <hr>
 
